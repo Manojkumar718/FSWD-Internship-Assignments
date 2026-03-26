@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+nav {
+  margin: 15px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4e73df;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

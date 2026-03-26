@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* darker teal-blue background for higher contrast */
+  background: #071421;
+  color: #e6f0f6;
+}
+
+.app {
+  padding: 28px 20px 60px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 18px;
+  color: #e6f7ff;
+  font-size: 40px;
+  text-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+input {
+  padding: 10px 12px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  background: #ffffff;
+  color: #062022;
+  box-shadow: 0 4px 12px rgba(2,6,23,0.5);
+}
+
+.filters button {
+  margin: 6px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  background: #123245; /* darker teal button */
+  color: #e6f7ff;
+  cursor: pointer;
+  transition: 0.18s ease;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.45);
+}
+
+.filters button:hover {
+  background: #06b6d4; /* cyan accent on hover */
+  color: #022; 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+  margin-top: 26px;
+}
+
+.card {
+  background: #0f2a37; /* slightly lighter than body for separation */
+  padding: 18px;
+  border-radius: 14px;
+  transition: transform 0.28s, box-shadow 0.28s;
+  color: #e6f7ff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.6);
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* consistent height */
+  object-fit: cover; /* keep images readable and cropped nicely */
+  border-radius: 10px;
+  background: #0b2230;
+}
+
+.card h2 {
+  margin: 12px 0 6px;
+  color: #e6f7ff;
+  font-size: 18px;
+}
+
+.card .price {
+  color: #c7f1ff;
+  margin: 6px 0;
+  font-weight: 700;
+}
+
+.rating {
+  color: #ffd166;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.rating span { color: #e6f7ff; }
+
+.card .cta {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 12px;
+  background: #06b6d4;
+  color: #022;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.card .cta:hover {
+  background: #00a3bf;
+}

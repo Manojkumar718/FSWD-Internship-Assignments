@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Profile</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: white;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav h2 {
+            color: #4e73df;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #4e73df;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Main Container */
+        .container {
+            background-color: white;
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        /* Section Titles */
+        h2.section-title {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #1cc88a;
+            border-left: 5px solid #4e73df;
+            padding-left: 10px;
+            scroll-margin-top: 100px; /* FIX for sticky navbar overlap */
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            border: 3px solid #4e73df;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        ul, ol {
+            background-color: #f8f9fc;
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #4e73df;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #1cc88a;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero h1 {
+                font-size: 26px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>MyProfile</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#resource">Resources</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Welcome to My Personal Profile</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <h2 class="section-title" id="about">About Me</h2>
+        <p>
+            Hello! My name is H T Manoj Kumar. I am currently learning web development.
+            I enjoy building modern web pages and continuously improving my coding skills.
+        </p>
+
+        <h2 class="section-title">Web Development</h2>
+        <img src="image.jpg" alt="My Image" width="220">
+
+        <h2 class="section-title" id="skills">My Skills</h2>
+        <ul>
+            <li>HTML Basics</li>
+            <li>CSS Fundamentals</li>
+            <li>Responsive Design</li>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+        </ul>
+
+        <h2 class="section-title" id="hobbies">My Hobbies</h2>
+        <ol>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Listening to Music</li>
+            <li>Playing Sports</li>
+        </ol>
+
+        <h2 class="section-title" id="resource">Learning Resource</h2>
+        <p>
+            Visit my favorite website:
+            <a href="https://www.geeksforgeeks.org/html" target="_blank">
+                GeeksforGeeks
+            </a>
+        </p>
+
+    </div>
+
+</body>
+</html>

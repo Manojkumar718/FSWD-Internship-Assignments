@@ -1,0 +1,46 @@
+Assignment Name: Internet Explorer
+
+1. Client-Server Architecture
+
+Client-server architecture is a model where the client sends a request and the server responds with the required data or service.
+In the context of the web:
+•	The Client: Typically, a web browser (Chrome, Safari) or a mobile app. It provides the user interface and handles the presentation layer.
+•	The Server: A powerful computer or cluster of computers that stores data, hosts the website files, and manages security and business logic.
+•	The Network: The communication path (the Internet) that uses protocols like TCP/IP to allow the two parties to talk.
+This process happens within seconds, allowing users to access websites quickly and efficiently.
+
+
+2. Diagram
+
+     Client-Server Architecture
+
+        [ Client Devices ]
+   (Laptop / Mobile / Desktop)
+              |
+              |  Request (HTTP)
+              ↓
+        ---------------------
+        |   Internet        |
+        |   (Network)       |
+        ---------------------
+              |
+              |  Response (Data)
+              ↓
+        ---------------------
+        |     Server        |
+        | (Stores Website)  |
+        ---------------------
+
+The client sends a request to the server through the internet, and the server processes the request and sends back the response (data) to the client.
+ 
+3. What Happens When You Open a Website
+
+When a user opens a website, the following steps take place:
+1.	The user enters a URL (for example: www.google.com) in the browser. 
+2.	The browser sends a request to the DNS (Domain Name System) server. 
+3.	The DNS server converts the domain name into an IP address. 
+4.	The browser sends an HTTP request to the web server using that IP address. 
+5.	The web server processes the request. 
+6.	The server sends back a response containing HTML, CSS, and JavaScript files. 
+7.	The browser receives the response and renders the webpage. 
+8.	Finally, the user can see the website displayed on the screen.

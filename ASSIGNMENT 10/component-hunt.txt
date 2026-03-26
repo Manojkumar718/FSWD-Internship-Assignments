@@ -1,0 +1,46 @@
+Assignment Name: Component Hunt
+
+Website Chosen: YouTube
+
+1. Header Component
+Logo
+Search bar
+Profile icon
+Notification icon
+
+2. Sidebar Component
+Home
+Shorts
+Subscriptions
+Library
+
+3. Video Feed Component
+Thumbnails
+Video titles
+Channel name
+Views and time
+
+4. Video Card Component
+Individual video block
+Contains image + text
+
+5. Footer Component
+Links and information
+
+6. Layout Structure
+
+The page is divided into:
+Header (top)
+Sidebar (left)
+Main content (video grid)
+
+
+Diagram 
+simple sketch:
+---------------------------------
+| Header                        |
+---------------------------------
+| Sidebar |   Video Section     |
+|         |   Video Cards       |
+|         |                     |
+---------------------------------
