@@ -1,0 +1,21 @@
+### GET
+GET http://localhost:3000/tasks
+
+### POST
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "title": "New Task"
+}
+
+### PUT
+PUT http://localhost:3000/tasks/1
+Content-Type: application/json
+
+{
+  "title": "Updated Task"
+}
+
+### DELETE
+DELETE http://localhost:3000/tasks/1
